@@ -1,64 +1,49 @@
-<?php
-session_start();
+<?php 
+
 include 'connect.php';
 
-$error = "";
+if(isset($_POST['signUp'])){
+    $email=$_POST['email'];
+    $username=$_POST['name'];
+    $password=$_POST['password'];
+    $password=md5($password);
 
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    if (isset($_POST['signIn'])) {
-        $email = $conn->real_escape_string($_POST['email']);
-        $username = $conn->real_escape_string($_POST['username']);
-        $password = $_POST['password'];
-
-        $sql = "SELECT * FROM users WHERE email=? AND username=?";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("ss", $email, $username);
-        $stmt->execute();
-        $result = $stmt->get_result();
-
-        if ($result->num_rows > 0) {
-            $row = $result->fetch_assoc();
-
-            if (password_verify($password, $row['password'])) {
-                $_SESSION['email'] = $row['email'];
-                $_SESSION['username'] = $row['username'];
-                header("Location: tr.php");
-                exit();
-            } else {
-                $error = "Incorrect Password";
+     $checkEmail="SELECT * From users where email='$email'";
+     $result=$conn->query($checkEmail);
+     if($result->num_rows>0){
+        echo "Email Address Already Exists !";
+     }
+     else{
+        $insertQuery="INSERT INTO users(email,name,password)
+                       VALUES ('$email','$username','$password')";
+            if($conn->query($insertQuery)==TRUE){
+                header("location: tr.php");
             }
-        } else {
-            $error = "Incorrect Email or Username";
-        }
-        $stmt->close();
-    } elseif (isset($_POST['signUp'])) {
-        $email = $conn->real_escape_string($_POST['email']);
-        $username = $conn->real_escape_string($_POST['username']);
-        $password = $_POST['password'];
-        $hashedPassword = password_hash($password, PASSWORD_BCRYPT);
-
-        $checkUser = "SELECT * FROM users WHERE email=? OR username=?";
-        $stmt = $conn->prepare($checkUser);
-        $stmt->bind_param("ss", $email, $username);
-        $stmt->execute();
-        $result = $stmt->get_result();
-
-        if ($result->num_rows > 0) {
-            $error = "Email or Username Already Exists!";
-        } else {
-            $insertQuery = "INSERT INTO users (email, username, password) VALUES (?, ?, ?)";
-            $insertStmt = $conn->prepare($insertQuery);
-            $insertStmt->bind_param("sss", $email, $username, $hashedPassword);
-
-            if ($insertStmt->execute()) {
-                header("Location: tr.php");
-                exit();
-            } else {
-                $error = "Error: " . $conn->error;
+            else{
+                echo "Error:".$conn->error;
             }
-            $insertStmt->close();
-        }
-        $stmt->close();
-    }
+     }
+   
+
+}
+
+if(isset($_POST['signIn'])){
+   $email=$_POST['email'];
+   $password=$_POST['password'];
+   $password=md5($password) ;
+   
+   $sql="SELECT * FROM users WHERE email='$email' and password='$password'";
+   $result=$conn->query($sql);
+   if($result->num_rows>0){
+    session_start();
+    $row=$result->fetch_assoc();
+    $_SESSION['email']=$row['email'];
+    header("Location: tr.php");
+    exit();
+   }
+   else{
+    echo "Not Found, Incorrect Email or Password";
+   }
+
 }
 ?>
