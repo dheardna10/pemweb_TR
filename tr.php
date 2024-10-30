@@ -245,10 +245,82 @@
         </div>
     </section>
 
-  <footer id="footer">
-      <h2> Floslyy &copy; Form us to our beloved</h2>
-  </footer> 
+        <!-- Ulasan Section -->
+  <section id="about-us" class="my-5 py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Ulasan Pelanggan</h2>
+      
+      <!-- Bagian Testimoni Pelanggan -->
+      <div class="row justify-content-center">
+        <div class="col-md-4 text-center mb-4">
+          <img src="https://3fc4ed44-3fbc-419a-97a1-a29742511391.selcdn.net/coub_storage/coub/simple/cw_timeline_pic/ab62e025398/32458a73409a40bbbcd8d/med_1609608933_image.jpg" alt="User 1" class="rounded-circle mb-3" width="100" height="100">
+          <p class="testimonial-text">"Produk buket yang indah! Cocok sekali untuk acara ulang tahun. Akan beli lagi!"</p>
+          <p class="font-italic">- Amanda</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <img src="https://i.pinimg.com/474x/66/4d/21/664d21c6ba8b159769f23b25f2adc28a.jpg" alt="User 2" class="rounded-circle mb-3" width="100" height="100">
+          <p class="testimonial-text">"Pelayanan yang ramah dan cepat, bunganya segar dan tahan lama!"</p>
+          <p class="font-italic">- Riko</p>
+        </div>
+        <div class="col-md-4 text-center mb-4">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEgV1lDruSwmuLbz11g1u7oamPRfb624NDw&s" alt="User 3" class="rounded-circle mb-3" width="100" height="100">
+          <p class="testimonial-text">"Buket yang cantik dan harum! Sempurna untuk hadiah anniversary."</p>
+          <p class="font-italic">- Maya</p>
+        </div>
+      </div>
 
-  
+      <!-- Bagian Form Ulasan -->
+      <div class="review-form mt-5">
+        <h4 class="text-center mb-4">Berikan Ulasan Anda</h4>
+        <?php
+        include 'ulasan.php'; 
+        if ($message): ?>
+            <div class="alert alert-success text-center"><?php echo $message; ?></div>
+        <?php endif; ?>
+        <form class="w-75 mx-auto" method="POST" action="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Masukkan email Anda" required>
+            </div>
+            <div class="mb-3">
+                <label for="review" class="form-label">Ulasan</label>
+                <textarea class="form-control" id="review" name="review" rows="4" placeholder="Tulis ulasan Anda di sini" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary">Submit Ulasan</button>
+            </div>
+        </form>
+    </div>
+</div>
+  </section>
+
+<!-- Footer Section -->
+<footer id="footer" class="text-center">
+  <div class="container">
+      <p>&copy; 2024 Your Company. All Rights Reserved.</p>
+      <div class="social-media">
+          <a href="https://www.instagram.com" target="_blank">
+              <img src="images/—Pngtree—instagram logo icon_3588821.png" alt="Instagram">
+          </a>
+          <a href="https://www.google.com/maps" target="_blank">
+              <img src="images/gmaps.png" alt="Google Maps">
+          </a>
+          <a href="https://www.tiktok.com" target="_blank">
+              <img src="images/tiktok.png" alt="TikTok">
+          </a>
+          <a href="https://www.facebook.com" target="_blank">
+              <img src="images/facebook.png" alt="Facebook">
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+              <img src="images/twitter.png" alt="Twitter">
+          </a>
+      </div>
+  </div>
+</footer>
+
   </body>
 </html>
