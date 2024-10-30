@@ -51,201 +51,201 @@
       <h2 class="text-center my-4">Kategori</h2>
       <div class="category-container">
       <div class="category">
-          <img src="images/category1.jpg" alt="Kategori 1" />
-          <p>Kategori 1</p>
+          <img src="images/bunga.jpg" alt="Kategori 1" />
+          <p>Bouquet Bunga</p>
       </div>
       <div class="category">
-          <img src="images/category2.jpg" alt="Kategori 2" />
-          <p>Kategori 2</p>
+          <img src="images/IMG_1859.jpg" alt="Kategori 2" />
+          <p>Bouquet Uang</p>
       </div>
       <div class="category">
-          <img src="images/category3.jpg" alt="Kategori 3" />
-          <p>Kategori 3</p>
+          <img src="images/pipe.jpg" alt="Kategori 3" />
+          <p>Bouquet Pipe Cleaner</p>
       </div>
       <div class="category">
-          <img src="images/category4.jpg" alt="Kategori 4" />
-          <p>Kategori 4</p>
+          <img src="images/IMG_1005.jpg" alt="Kategori 4" />
+          <p>Bouquet Snack</p>
       </div>
       </div>
   </section>
 
-    <section id="products">
-      <h2>Produk Buket</h2>
-      <div class="row">
-        <!--Buket 1-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=1" class="btn btn-primary">Detail Produk</a>
-            </div>
+  <section id="products">
+    <h2>Produk Buket</h2>
+    <div class="row">
+      <!--Buket 1-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=1" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 2-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=2" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 2-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=2" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 3-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=3" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 3-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=3" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 4-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=4" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 4-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=4" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 5-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=5" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 5-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=5" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 6-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=6" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 6-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=6" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 7-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=7" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 7-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=7" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 8-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=8" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 8-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=8" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-        <!--Buket 9-->
-        <div class="col-md-4">
-          <div class="card">
-            <img
-              src="images/IMG_7785.jpg"
-              class="card-img-top"
-              alt="Buket 1"
-            />
-            <div class="card-body">
-              <h5 class="card-title">Buket Mawar Merah</h5>
-              <p class="card-text">
-                Buket mawar merah elegan cocok untuk momen spesial. Tersedia
-                dalam berbagai ukuran.
-              </p>
-              <p class="price">Harga: Rp 450.000</p>
-              <a href="product-detail.html?id=9" class="btn btn-primary">Detail Produk</a>
-            </div>
+      </div>
+      <!--Buket 9-->
+      <div class="col-md-4">
+        <div class="card">
+          <img
+            src="images/IMG_7785.jpg"
+            class="card-img-top"
+            alt="Buket 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Buket Mawar Merah</h5>
+            <p class="card-text">
+              Buket mawar merah elegan cocok untuk momen spesial. Tersedia
+              dalam berbagai ukuran.
+            </p>
+            <p class="price">Harga: Rp 450.000</p>
+            <a href="product-detail.html?id=9" class="btn btn-primary">Detail Produk</a>
           </div>
         </div>
-    </section>
+      </div>
+  </section>
 
-        <!-- Ulasan Section -->
+    <!-- Ulasan Section -->
   <section id="about-us" class="my-5 py-5 bg-light">
     <div class="container">
       <h2 class="text-center mb-5">Ulasan Pelanggan</h2>
@@ -255,17 +255,19 @@
         <div class="col-md-4 text-center mb-4">
           <img src="https://3fc4ed44-3fbc-419a-97a1-a29742511391.selcdn.net/coub_storage/coub/simple/cw_timeline_pic/ab62e025398/32458a73409a40bbbcd8d/med_1609608933_image.jpg" alt="User 1" class="rounded-circle mb-3" width="100" height="100">
           <p class="testimonial-text">"Produk buket yang indah! Cocok sekali untuk acara ulang tahun. Akan beli lagi!"</p>
-          <p class="font-italic">- Amanda</p>
+          <p class="font-italic">- Lewita</p>
         </div>
         <div class="col-md-4 text-center mb-4">
           <img src="https://i.pinimg.com/474x/66/4d/21/664d21c6ba8b159769f23b25f2adc28a.jpg" alt="User 2" class="rounded-circle mb-3" width="100" height="100">
           <p class="testimonial-text">"Pelayanan yang ramah dan cepat, bunganya segar dan tahan lama!"</p>
-          <p class="font-italic">- Riko</p>
+          <br>
+          <p class="font-italic">- Puspa</p>
         </div>
         <div class="col-md-4 text-center mb-4">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEgV1lDruSwmuLbz11g1u7oamPRfb624NDw&s" alt="User 3" class="rounded-circle mb-3" width="100" height="100">
           <p class="testimonial-text">"Buket yang cantik dan harum! Sempurna untuk hadiah anniversary."</p>
-          <p class="font-italic">- Maya</p>
+          <br>
+          <p class="font-italic">- Elok</p>
         </div>
       </div>
 
@@ -273,7 +275,7 @@
       <div class="review-form mt-5">
         <h4 class="text-center mb-4">Berikan Ulasan Anda</h4>
         <?php
-        include 'ulasan.php'; 
+        include 'process_review.php'; 
         if ($message): ?>
             <div class="alert alert-success text-center"><?php echo $message; ?></div>
         <?php endif; ?>
@@ -321,6 +323,7 @@
       </div>
   </div>
 </footer>
+
 
   </body>
 </html>
