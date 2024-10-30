@@ -275,7 +275,7 @@
       <div class="review-form mt-5">
         <h4 class="text-center mb-4">Berikan Ulasan Anda</h4>
         <?php
-        include 'process_review.php'; 
+        include 'ulasan.php'; 
         if ($message): ?>
             <div class="alert alert-success text-center"><?php echo $message; ?></div>
         <?php endif; ?>
