@@ -51,19 +51,19 @@
       <h2 class="text-center my-4">Kategori</h2>
       <div class="category-container">
       <div class="category">
-          <img src="images/IMG_7785.jpg" alt="Kategori 1" />
+          <img src="images/bunga.jpg" alt="Kategori 1" />
           <p>Bouquet Bunga</p>
       </div>
       <div class="category">
-          <img src="images/IMG_1008.jpg" alt="Kategori 2" />
+          <img src="images/IMG_1859.jpg" alt="Kategori 2" />
           <p>Bouquet Uang</p>
       </div>
       <div class="category">
-          <img src="images/category3.jpg" alt="Kategori 3" />
+          <img src="images/pipe.jpg" alt="Kategori 3" />
           <p>Bouquet Pipe Cleaner</p>
       </div>
       <div class="category">
-          <img src="images/category4.jpg" alt="Kategori 4" />
+          <img src="images/IMG_1005.jpg" alt="Kategori 4" />
           <p>Bouquet Snack</p>
       </div>
       </div>
