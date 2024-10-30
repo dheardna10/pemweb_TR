@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; 
+  color: #333;
+}
+
+/* Background untuk halaman login */
+.login-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("images/flower.jpg");
+  background-size: auto;
+  background-position: center;
+}
+
+/* Style untuk overlay dan form-container */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.form-container {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 3rem 5rem;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 1rem 2rem;
+  border-bottom: 3px solid #d7ccc8;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #444;
+}
+
+.logo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  font-weight: 200;
+  color: #5d4037; 
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #8e6e53;
+}
+
+/* Hero Banner */
+#hero-banner {
+  background: url("images/bg.jpg") no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+}
+
+.hero-text .btn {
+  background-color: #ff6666;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.hero-text .btn:hover {
+  background-color: #ff4c4c;
+}
+
+/* Produk Section */
+section {
+  padding: 3rem 2rem;
+  background-color: white;
+}
+
+#products {
+  padding: 2rem 0;
+}
+
+#products h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  border: none;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.card-text {
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.price {
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #ffccbc;
+  border-color: #ffab91;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #ffab91;
+  border-color: #ff7043;
+}
+
+/* Responsivitas Produk */
+.product-list {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-list article {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  flex: 1 1 300px;
+}
+
+/* Produk Detail */
+#productImage {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #f0f0f0;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+#productName {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+#productDescription {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.btn-secondary {
+  background-color: #c5c5c5;
+  color: #444;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #a1a1a1;
+  color: #ffffff;
+}
+
+/* Gallery Section */
+#gallery {
+  background-color: #f9f9f9;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+}
+
+/* Kategori */
+.category-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.category {
+  width: 250px; 
+  height: 250px;
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0; 
+  margin: 30px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.2s; 
+  flex-direction: column;
+}
+
+.category:hover {
+  transform: scale(1.1);
+}
+
+.category img {
+  max-width: 80%; 
+  max-height: 80%; 
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#footer h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 25px;
+  font-weight: 500;
+  color: #fff;
+}
+
+footer form {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+footer form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+footer form input,
+footer form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer form button {
+  background-color: #ff6666;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+footer form button:hover {
+  background-color: #ff4c4c;
+}
+
+.tengah {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
