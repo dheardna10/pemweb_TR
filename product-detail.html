@@ -5,10 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detail Produk - Floslyy</title>
     <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="tr.css" rel="stylesheet" />
   </head>
   <body>
@@ -20,19 +17,12 @@
 
     <main class="container my-5">
       <div class="card">
-        <img
-          id="productImage"
-          src=""
-          alt="Product Image"
-          class="card-img-top"
-        />
+        <img id="productImage" src="" alt="Product Image" class="card-img-top" />
         <div class="card-body">
           <h3 id="productName" class="card-title"></h3>
           <p id="productDescription" class="card-text"></p>
-          <p class="price">
-            <strong>Harga: </strong><span id="productPrice"></span>
-          </p>
-          <a href="tr.html" class="btn btn-secondary">Kembali</a>
+          <p class="price"><strong>Harga: </strong><span id="productPrice"></span></p>
+          <a href="tr.php" class="btn btn-secondary">Kembali</a>
         </div>
       </div>
     </main>
@@ -111,8 +101,7 @@
       const product = products[productId];
       if (product) {
         document.getElementById("productName").textContent = product.name;
-        document.getElementById("productDescription").textContent =
-          product.description;
+        document.getElementById("productDescription").textContent = product.description;
         document.getElementById("productPrice").textContent = product.price;
         document.getElementById("productImage").src = product.image;
       } else {
