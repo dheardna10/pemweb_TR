@@ -11,6 +11,7 @@
         <div class="navbar-container container">
             <div class="logo">
                 <h3>FLOSLYY</h3>
+                <h3>YAHAHAAHHA</h3>
             </div>
             <ul class="menu-items">
                 <li><a href="home.html">Home</a></li>
