@@ -28,16 +28,16 @@ if(isset($_POST['signUp'])){
 }
 
 if(isset($_POST['signIn'])){
-   $email=$_POST['email'];
+   $username=$_POST['name'];
    $password=$_POST['password'];
    $password=md5($password) ;
    
-   $sql="SELECT * FROM users WHERE email='$email' and password='$password'";
+   $sql="SELECT * FROM users WHERE name='$username' and password='$password'";
    $result=$conn->query($sql);
    if($result->num_rows>0){
     session_start();
     $row=$result->fetch_assoc();
-    $_SESSION['email']=$row['email'];
+    $_SESSION['name']=$row['name'];
     header("Location: tr.php");
     exit();
    }

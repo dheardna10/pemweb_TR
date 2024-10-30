@@ -75,7 +75,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <!-- Form Login -->
     <div id="loginForm">
       <h2>Log In</h2>
-      <form method="POST" action="auth.php">
+      <form method="POST" action="login_system.php">
         <div class="mb-3">
           <label for="loginName" class="form-label">Name</label>
           <input type="text" id="loginName" class="form-control" name="name" placeholder="Enter your name" required />
@@ -95,7 +95,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <!-- Form Sign Up -->
     <div id="signUpForm" class="d-none">
       <h2>Sign Up</h2>
-      <form method="POST" action="auth.php">
+      <form method="POST" action="login_system.php">
         <div class="mb-3">
           <label for="signUpEmail" class="form-label">Email</label>
           <input type="email" id="signUpEmail" class="form-control" name="email" placeholder="Enter your email"
